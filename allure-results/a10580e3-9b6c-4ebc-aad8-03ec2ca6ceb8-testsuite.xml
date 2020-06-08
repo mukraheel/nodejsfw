@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591529950191' stop='1591529954771'>
+    <name>This element test</name>
+    <title>This element test</title>
+    <test-cases>
+        <test-case start='1591529950191' status='passed' stop='1591529954770'>
+            <name>This enter values</name>
+            <title>This enter values</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.97'/>
+            </parameters>
+            <steps>
+                <step start='1591529950217' status='passed' stop='1591529954543'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='851bd471-713b-4e71-b832-c2e162d15e80-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591529954546' status='passed' stop='1591529954588'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f5f71088-035a-44be-9527-14e6b08244a0-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='d3a7faf9-73a6-4e90-a8d0-9a5bc9c1b2e1-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1591529954599' status='passed' stop='1591529954632'>
+                    <name>POST /session/:sessionId/element/0.23556467203812348-1/clear</name>
+                    <title>POST /session/:sessionId/element/0.23556467203812348-1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1591529954636' status='passed' stop='1591529954770'>
+                    <name>POST /session/:sessionId/element/0.23556467203812348-1/value</name>
+                    <title>POST /session/:sessionId/element/0.23556467203812348-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='c76ef077-6023-48dd-b48a-2e8df5225932-attachment.json' type='application/json' size='109'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
